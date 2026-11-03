@@ -70,7 +70,7 @@ jobs:
         id: theos
         uses: actions/cache@v5
         env:
-          cache-name: theos_cache_9bc7340
+          cache-name: theos_cache_9bc7340_intel
         with:
           path: theos/
           key: ${{ env.cache-name }}
